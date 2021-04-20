@@ -470,6 +470,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+<<<<<<< HEAD
 	
 # Youtube by Vanced Team
 PRODUCT_PACKAGES += \
@@ -478,3 +479,9 @@ PRODUCT_PACKAGES += \
 # GCam Go
 PRODUCT_PACKAGES += \
     GCam
+=======
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts	
+>>>>>>> ff8dc03 (ysl: Added Parts to the build.)
