@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
 # Inherit some common Cherish stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit some common Cherish flags
 CHERISH_BUILD_TYPE := OFFICIAL
@@ -36,7 +36,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := cherish_ysl
+PRODUCT_NAME := aosp_ysl
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2
@@ -52,7 +52,7 @@ BUILD_FINGERPRINT := xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:us
 BUILD_DESCRIPTION := tissot-user 8.0.0 OPR1.170623.026 8.1.10 release-keys
 
 PRODUCT_GENERIC_PROPERTIES += \
-   ro.cherish.maintainer=Sushmit Rathore
+   ro.cherish.maintainer= don't see it baka // mohit
 
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
