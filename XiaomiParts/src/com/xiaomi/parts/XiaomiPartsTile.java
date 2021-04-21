@@ -1,4 +1,4 @@
-package com.xiaomi.parts.tile;
+package com.xiaomi.parts;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -6,8 +6,6 @@ import android.service.quicksettings.TileService;
 
 import com.xiaomi.parts.DeviceSettings;
 import com.xiaomi.parts.DeviceSettingsActivity;
-
-import com.xiaomi.parts.R;
 
 public class XiaomiPartsTile extends TileService {
 
