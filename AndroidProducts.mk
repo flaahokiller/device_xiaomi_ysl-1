@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_ysl.mk
+    $(LOCAL_DIR)/crdroid_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_ysl-user \
-    cherish_ysl-userdebug \
-    cherish_ysl-eng
+    crdroid_ysl-user \
+    crdroid_ysl-userdebug \
+    crdroid_ysl-eng
