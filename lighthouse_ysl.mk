@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
 # Inherit some common Cherish stuff.
-$(call inherit-product, vendor/crdroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/lighthouse/config/common_full_phone.mk)
 
 # Inherit some common crdroid flags
 CRDROID_BUILD_TYPE := UNOFFICIAL
@@ -36,12 +36,12 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := crdroid_ysl
+PRODUCT_NAME := lighthouse_ysl
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2
 CHERISH_WITHGAPPS := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
