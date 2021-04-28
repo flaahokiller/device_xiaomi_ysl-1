@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/crdroid_ysl.mk
+    $(LOCAL_DIR)/lighthouse_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    crdroid_ysl-user \
-    crdroid_ysl-userdebug \
-    crdroid_ysl-eng
+    lighthouse_ysl-user \
+    lighthouse_ysl-userdebug \
+    lighthouse_ysl-eng
