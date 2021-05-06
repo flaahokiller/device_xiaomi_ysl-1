@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lighthouse_ysl.mk
+    $(LOCAL_DIR)/komodo_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    lighthouse_ysl-user \
-    lighthouse_ysl-userdebug \
-    lighthouse_ysl-eng
+    komodo_ysl-user \
+    komodo_ysl-userdebug \
+    komodo_ysl-eng
