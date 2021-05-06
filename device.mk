@@ -206,8 +206,7 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
-    FMRadio \
-    libfmjni
+
 # GPS
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl
