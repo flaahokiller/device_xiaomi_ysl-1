@@ -202,7 +202,6 @@ PRODUCT_PACKAGES += \
 
 # Fwk-detect
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti \
