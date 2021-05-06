@@ -468,7 +468,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-<<<<<<< HEAD
 	
 # Youtube by Vanced Team
 PRODUCT_PACKAGES += \
